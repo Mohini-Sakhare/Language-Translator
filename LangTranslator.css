@@ -36,7 +36,9 @@ body{
 #fromText{
     height: 40vh;
     width: 29vw;
-    color: #00032b;
+    border: none;
+    background-color: #001e31;
+    color: white;
     font-size: 18px;
     padding: 10px;
     border-radius: 15px;
@@ -44,8 +46,49 @@ body{
 #toText{
     height: 40vh;
     width: 29vw;
-    color: #00032b;
+    border: none;
+    background-color: #001e31;
+    color: white;
     font-size: 18px;
     padding: 10px;
     border-radius: 15px;
+}
+.selectArea{
+    height: 15vh;
+    width: 60vw;
+    /* background-color: #00032b; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.select1{
+   height: 10vh;
+   width: 29vw;
+   font-size: 22px;
+   border: none;
+   border-radius: 10px;
+   background-color: #01686d;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.select2{
+   height: 10vh;
+   width: 29vw;
+   font-size: 22px;
+   border: none;
+   border-radius: 10px;
+   background-color: #01686d;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;    
+}
+#fselect{
+    font-size: 18px;
+    border: none;
+    background-color: #001e31;
+    color: gray;
+    padding: 10px;
+    border-radius: 10px;
 }
