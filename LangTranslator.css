@@ -85,6 +85,11 @@ body{
    align-items: center;    
 }
 #fselect{
+    height: 7vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 18px;
     border: none;
     background-color: #001e31;
