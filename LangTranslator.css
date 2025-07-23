@@ -25,6 +25,11 @@ body{
     border: none;
     border-radius: 10px;
 }
+h1{
+    margin-bottom: 15px;
+    color: #00032b;
+    text-shadow: 2px 2px 10px #50d9fc;
+}
 .text{
     height: 40vh;
     width: 60vw;
@@ -38,7 +43,7 @@ body{
     width: 29vw;
     border: none;
     background-color: #001e31;
-    color: white;
+    color: gainsboro;
     font-size: 18px;
     padding: 10px;
     border-radius: 15px;
@@ -48,7 +53,7 @@ body{
     width: 29vw;
     border: none;
     background-color: #001e31;
-    color: white;
+    color: gainsboro;
     font-size: 18px;
     padding: 10px;
     border-radius: 15px;
@@ -96,4 +101,13 @@ body{
     color: gray;
     padding: 10px;
     border-radius: 10px;
+}
+#Translator{
+    height: 8vh;
+    width: 35vw;
+    font-size: 22px;
+    border: none;
+    border-radius: 20px;
+    background-color:#006368;
+    color: gainsboro;
 }
