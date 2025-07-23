@@ -1,4 +1,4 @@
-const lang = {
+const countries = {
   // English
   'en-US': { language: 'English', country: 'United States' },
   'en-GB': { language: 'English', country: 'United Kingdom' },
