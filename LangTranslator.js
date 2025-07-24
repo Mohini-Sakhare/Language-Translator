@@ -21,11 +21,11 @@ translateBtn.addEventListener(("click"), ()=>{
    translateFrom = selectTag[0].value,
    translateTo = selectTag[1].value;
 
-//    let URL =` https://api.mymemory.translated.net/get?q=${Text}!&langpair=${translateFrom}|${translateTo}`;
+   let URL =` https://api.mymemory.translated.net/get?q=${Text}!&langpair=${translateFrom}|${translateTo}`;
 
-//    fetch(URL).then(res => res.json()).then(data =>{
+   fetch(URL).then(res => res.json()).then(data =>{
 
-//    })
+   })
 });
 
 
